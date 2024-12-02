@@ -2,7 +2,7 @@ import React, { useReducer, useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { initialState, reducer, actionTypes } from "../utils/Reducer";
-import { AddMemberModal } from "../components/forms/AddModal";
+import { AddMemberModal } from "../components/forms/AddMember";
 import { 
   Users, 
   UserPlus, 
